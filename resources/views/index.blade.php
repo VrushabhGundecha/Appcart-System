@@ -10,7 +10,6 @@
             <button type="submit" id="searchButton">Search</button>
         </form>
 
-        <!-- Users Table -->
         <table>
             <thead>
                 <tr>

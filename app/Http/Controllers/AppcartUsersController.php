@@ -47,7 +47,6 @@ class AppcartUsersController extends Controller
         return view('index', compact('users'));
     }
 
-
     public function create()
     {
         return view('create');
@@ -81,8 +80,6 @@ class AppcartUsersController extends Controller
 
     public function update(Request $request, $id)
     {
-        // Validation logic here
-
         $user = AppcartUser::findOrFail($id);
         $user->update($request->all());
 
